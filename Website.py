@@ -1,6 +1,6 @@
 from AddToDB import app
 from flask import render_template
-from jinja2 import Template
+import flask_bootstrap
 
 FLASK_DEBUG=1
 CLIENT_ID = '2285WZ'
@@ -13,9 +13,6 @@ FITBIT_API = 'https://www.fitbit.com/oauth2/authorize?' \
 @app.route('/')
 def main_page():
     return render_template('index.html', site=FITBIT_API)
-
-
-
 
 if __name__ == '__main__':
       app.run(host="localhost", port=80)
