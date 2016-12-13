@@ -9,22 +9,22 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>User Profile</title>
+    <title>{% block title %}{% endblock %}</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
-
-    <!-- Social Buttons CSS -->
-    <link href="../vendor/bootstrap-social/bootstrap-social.css" rel="stylesheet">
+    <link href="static/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+    <link href="static/dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="static/vendor/morrisjs/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,12 +48,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Personalized Database</a>
+                <a class="navbar-brand" href="index.html">Welcome to your personalized dashboard</a>
             </div>
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
-                <!-- /.dropdown -->
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
@@ -119,7 +118,7 @@
                         <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href=""><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        <li><a href="AccManager.html"><i class="fa fa-user fa-fw"></i> User Profile</a>
                         </li>
                         <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
@@ -149,99 +148,28 @@
             <!-- /.navbar-static-side -->
         </nav>
 
-        <!-- Page Content -->
-        <div id="page-wrapper">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Account Manager</h1>
-                </div>
-            </div>
-            <!-- /.row -->
-            <div class="row">
-                <!-- /.col-lg-6 -->
-                <div class="col-lg-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            You Can Link The Following Accounts:
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <h4>Social Sites</h4>
+       {% block content %}{% endblock %}
+        <!-- /#page-wrapper -->
 
-                            <div class="row">
-                                <div class="col-lg-1">
-                                    <a class="btn btn-block btn-social-icon btn-facebook">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                Sign in with Facebook
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-1">
-                                    <a class="btn btn-block btn-social-icon btn-google-plus">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                Sign in with Google
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-1">
-                                    <a class="btn btn-block btn-social-icon btn-instagram">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                Sign in with Instagram
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-1">
-                                    <a class="btn btn-block btn-social-icon btn-linkedin">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                Sign in with Linkedin
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-1">
-                                    <a class="btn btn-block btn-social-icon btn-twitter">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </div>
-                                <div class="col-lg-3">
-                                Sign in with Twitter
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="static/vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Metis Menu Plugin JavaScript -->
-    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+    <script src="static/vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="static/vendor/raphael/raphael.min.js"></script>
+    <script src="static/vendor/morrisjs/morris.min.js"></script>
+    <script src="static/data/morris-data.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/sb-admin-2.js"></script>
+    <script src="static/dist/js/sb-admin-2.js"></script>
 
 </body>
 

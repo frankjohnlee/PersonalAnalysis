@@ -14,5 +14,17 @@ FITBIT_API = 'https://www.fitbit.com/oauth2/authorize?' \
 def main_page():
     return render_template('index.html', site=FITBIT_API)
 
+@app.route('/index.html')
+def main_page2():
+    return render_template('index.html', site=FITBIT_API)
+
+@app.route('/AccManager.html')
+def acc_manage():
+    return render_template('AccManager.html', site=FITBIT_API)
+
+@app.route('/tables.html')
+def tables():
+    return render_template('tables.html', site=FITBIT_API)
+
 if __name__ == '__main__':
       app.run(host="localhost", port=80)
