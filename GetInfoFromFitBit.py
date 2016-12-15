@@ -1,6 +1,6 @@
 import fitbit
-import urllib
-import base64
+from requests_oauthlib import OAuth2Session
+from base64 import b64encode
 
 CLIENT_ID = '2285WZ'
 CLIENT_SECRET = '8e0c01e96edd6f3dafe6ebf63cdf28b2'
@@ -10,34 +10,20 @@ GRANT_TYPE = 'authorization_code'
 #  This is the Fitbit URL
 TOKEN_URL = "https://api.fitbit.com/oauth2/token"
 
-def authenticate_fitbit(code):
-    print('got here')
+AUTH_B64_ENCODED = b64encode((CLIENT_ID + ":" + CLIENT_SECRET).encode("utf-8"))
+AUTH_B64_ENCODED = AUTH_B64_ENCODED.decode()
 
-    # Form the data payload
-    BodyText = {'code': code,
-                'redirect_uri': REDIRECT,
-                'client_id': CLIENT_ID,
-                'grant_type': GRANT_TYPE}
+def authenticate_fitbit(authorization_response, fitbit_site):
+    token = fitbit_site.fetch_token(
+        authorization_response=authorization_response,
+        token_url=TOKEN_URL,
+        client_id=CLIENT_ID,
+        client_secret=CLIENT_SECRET,
+        Authorization='Basic {}'.format(AUTH_B64_ENCODED))
+    print(token)
 
-    BodyURLEncoded = urllib.parse.urlencode(BodyText)
 
-    #  Start the request
-    req = urllib.request.Request(TOKEN_URL, BodyURLEncoded)
 
-    #  Add the headers, first we base64 encode the client id and client secret with a : in between
-    # and create the authorisation header
-    req.add_header('Authorization', 'Basic ' + base64.b64encode(CLIENT_ID + ":" + CLIENT_SECRET))
-    req.add_header('Content-Type', 'application/x-www-form-urlencoded')
-
-    # Fire off the request
-    try:
-        response = urllib.urlopen(req)
-        FullResponse = response.read()
-        print(FullResponse)
-
-    except urllib.URLError as e:
-        print(e.code)
-        print(e.read())
 
 
 #unauth_client = fitbit.Fitbit(CLIENT_ID, CLIENT_SECRET)
