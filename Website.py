@@ -1,12 +1,16 @@
-from AddToDB import app
 from flask import render_template, request, url_for
 from GetInfoFromFitBit import authenticate_fitbit
 from api_utils import API_DICT, OAUTH_SESSIONS
-
+from flask import Flask, ext
+from flask_sqlalchemy import SQLAlchemy
 
 SERVER_HOST = "localhost"
-SERVER_PORT = 80
+SERVER_PORT = 443
+CONNECTION_STRING = 'postgresql://postgres:postgres@localhost:5432/Health_Information'
 
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = CONNECTION_STRING
+db = SQLAlchemy(app)
 
 @app.route('/')
 def main_page():
@@ -31,7 +35,8 @@ def tables():
 
 
 if __name__ == '__main__':
-    #context = ('C:\\Users\\mattc\\.ssh\\.ssh.crt','C:\\Users\\mattc\\.ssh\\.ssh.key')
+    context = ('C:\\Users\\mattc\\.ssh\\.ssh.crt','C:\\Users\\mattc\\.ssh\\.ssh.key')
 
     app.run(host=SERVER_HOST,
-            port=SERVER_PORT)
+            port=SERVER_PORT,
+            ssl_context=context)
