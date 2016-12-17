@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "py35_1",
+  "build_number": 1,
+  "channel": "https://repo.continuum.io/pkgs/free/win-64",
+  "date": "2015-11-07",
+  "depends": [
+    "python 3.5*"
+  ],
+  "files": [
+    "Menu/Iconleak-Atrous-Console.ico",
+    "Menu/console_shortcut.json"
+  ],
+  "fn": "console_shortcut-0.1.1-py35_1.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "C:\\Users\\mattc\\Anaconda3\\pkgs\\console_shortcut-0.1.1-py35_1",
+    "type": "copy"
+  },
+  "md5": "9514290a12e20c29fb68e65f57476519",
+  "name": "console_shortcut",
+  "platform": "win",
+  "priority": 0,
+  "requires": [],
+  "schannel": "defaults",
+  "size": 47953,
+  "subdir": "win-64",
+  "url": "https://repo.continuum.io/pkgs/free/win-64/console_shortcut-0.1.1-py35_1.tar.bz2",
+  "version": "0.1.1"
+}

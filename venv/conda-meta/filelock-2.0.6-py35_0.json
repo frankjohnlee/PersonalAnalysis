@@ -1,0 +1,34 @@
+{
+  "arch": "x86_64",
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/free/win-64",
+  "date": "2016-08-22",
+  "depends": [
+    "python 3.5*"
+  ],
+  "files": [
+    "LICENSE.rst",
+    "Lib/site-packages/__pycache__/filelock.cpython-35.pyc",
+    "Lib/site-packages/filelock-2.0.6-py3.5.egg-info",
+    "Lib/site-packages/filelock.py",
+    "README.rst"
+  ],
+  "fn": "filelock-2.0.6-py35_0.tar.bz2",
+  "license": "Public Domain",
+  "license_family": "Public-Domain",
+  "link": {
+    "source": "C:\\Users\\mattc\\Anaconda3\\pkgs\\filelock-2.0.6-py35_0",
+    "type": "copy"
+  },
+  "md5": "4f733d3c689104e876142dc11e05d7d4",
+  "name": "filelock",
+  "platform": "win",
+  "priority": 0,
+  "requires": [],
+  "schannel": "defaults",
+  "size": 8026,
+  "subdir": "win-64",
+  "url": "https://repo.continuum.io/pkgs/free/win-64/filelock-2.0.6-py35_0.tar.bz2",
+  "version": "2.0.6"
+}

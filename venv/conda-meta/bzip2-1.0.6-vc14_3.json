@@ -1,0 +1,34 @@
+{
+  "arch": "x86_64",
+  "build": "vc14_3",
+  "build_number": 3,
+  "channel": "https://repo.continuum.io/pkgs/free/win-64",
+  "date": "2016-05-24",
+  "depends": [],
+  "features": "vc14",
+  "files": [
+    "Library/bin/bzip2.dll",
+    "Library/bin/libbz2.dll",
+    "Library/include/bzlib.h",
+    "Library/lib/bzip2.lib",
+    "Library/lib/bzip2_static.lib",
+    "Library/lib/libbz2.lib",
+    "Library/lib/libbz2_static.lib"
+  ],
+  "fn": "bzip2-1.0.6-vc14_3.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "C:\\Users\\mattc\\Anaconda3\\pkgs\\bzip2-1.0.6-vc14_3",
+    "type": "copy"
+  },
+  "md5": "954849ad2fc1317ab794ce6774745c8b",
+  "name": "bzip2",
+  "platform": "win",
+  "priority": 0,
+  "requires": [],
+  "schannel": "defaults",
+  "size": 140595,
+  "subdir": "win-64",
+  "url": "https://repo.continuum.io/pkgs/free/win-64/bzip2-1.0.6-vc14_3.tar.bz2",
+  "version": "1.0.6"
+}

@@ -1,0 +1,43 @@
+{
+  "arch": "x86_64",
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/free/win-64",
+  "date": "2015-09-15",
+  "depends": [
+    "python 3.5*"
+  ],
+  "files": [
+    "Lib/site-packages/multipledispatch-0.4.8-py3.5.egg-info/PKG-INFO",
+    "Lib/site-packages/multipledispatch-0.4.8-py3.5.egg-info/SOURCES.txt",
+    "Lib/site-packages/multipledispatch-0.4.8-py3.5.egg-info/dependency_links.txt",
+    "Lib/site-packages/multipledispatch-0.4.8-py3.5.egg-info/not-zip-safe",
+    "Lib/site-packages/multipledispatch-0.4.8-py3.5.egg-info/top_level.txt",
+    "Lib/site-packages/multipledispatch/__init__.py",
+    "Lib/site-packages/multipledispatch/__pycache__/__init__.cpython-35.pyc",
+    "Lib/site-packages/multipledispatch/__pycache__/conflict.cpython-35.pyc",
+    "Lib/site-packages/multipledispatch/__pycache__/core.cpython-35.pyc",
+    "Lib/site-packages/multipledispatch/__pycache__/dispatcher.cpython-35.pyc",
+    "Lib/site-packages/multipledispatch/__pycache__/utils.cpython-35.pyc",
+    "Lib/site-packages/multipledispatch/conflict.py",
+    "Lib/site-packages/multipledispatch/core.py",
+    "Lib/site-packages/multipledispatch/dispatcher.py",
+    "Lib/site-packages/multipledispatch/utils.py"
+  ],
+  "fn": "multipledispatch-0.4.8-py35_0.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "C:\\Users\\mattc\\Anaconda3\\pkgs\\multipledispatch-0.4.8-py35_0",
+    "type": "copy"
+  },
+  "md5": "47f8f56735b5005496d3a0e391089e40",
+  "name": "multipledispatch",
+  "platform": "win",
+  "priority": 0,
+  "requires": [],
+  "schannel": "defaults",
+  "size": 11996,
+  "subdir": "win-64",
+  "url": "https://repo.continuum.io/pkgs/free/win-64/multipledispatch-0.4.8-py35_0.tar.bz2",
+  "version": "0.4.8"
+}

@@ -1,0 +1,39 @@
+{
+  "arch": "x86_64",
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/free/win-64",
+  "date": "2016-02-22",
+  "depends": [
+    "python 3.5*",
+    "six"
+  ],
+  "files": [
+    "Lib/site-packages/__pycache__/singledispatch.cpython-35.pyc",
+    "Lib/site-packages/__pycache__/singledispatch_helpers.cpython-35.pyc",
+    "Lib/site-packages/singledispatch-3.4.0.3-py3.5.egg-info/PKG-INFO",
+    "Lib/site-packages/singledispatch-3.4.0.3-py3.5.egg-info/SOURCES.txt",
+    "Lib/site-packages/singledispatch-3.4.0.3-py3.5.egg-info/dependency_links.txt",
+    "Lib/site-packages/singledispatch-3.4.0.3-py3.5.egg-info/requires.txt",
+    "Lib/site-packages/singledispatch-3.4.0.3-py3.5.egg-info/top_level.txt",
+    "Lib/site-packages/singledispatch-3.4.0.3-py3.5.egg-info/zip-safe",
+    "Lib/site-packages/singledispatch.py",
+    "Lib/site-packages/singledispatch_helpers.py"
+  ],
+  "fn": "singledispatch-3.4.0.3-py35_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\mattc\\Anaconda3\\pkgs\\singledispatch-3.4.0.3-py35_0",
+    "type": "copy"
+  },
+  "md5": "93508df6c3af58b3edd1a55083ee67c1",
+  "name": "singledispatch",
+  "platform": "win",
+  "priority": 0,
+  "requires": [],
+  "schannel": "defaults",
+  "size": 12878,
+  "subdir": "win-64",
+  "url": "https://repo.continuum.io/pkgs/free/win-64/singledispatch-3.4.0.3-py35_0.tar.bz2",
+  "version": "3.4.0.3"
+}

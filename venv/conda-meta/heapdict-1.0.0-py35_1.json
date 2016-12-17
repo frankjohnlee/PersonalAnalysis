@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "build": "py35_1",
+  "build_number": 1,
+  "channel": "https://repo.continuum.io/pkgs/free/win-64",
+  "date": "2016-05-31",
+  "depends": [
+    "python 3.5*"
+  ],
+  "files": [
+    "Lib/site-packages/HeapDict-1.0.0-py3.5.egg-info",
+    "Lib/site-packages/__pycache__/heapdict.cpython-35.pyc",
+    "Lib/site-packages/heapdict.py"
+  ],
+  "fn": "heapdict-1.0.0-py35_1.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "C:\\Users\\mattc\\Anaconda3\\pkgs\\heapdict-1.0.0-py35_1",
+    "type": "copy"
+  },
+  "md5": "058a43e828a45c3b398c8897d26a82f8",
+  "name": "heapdict",
+  "platform": "win",
+  "priority": 0,
+  "requires": [],
+  "schannel": "defaults",
+  "size": 5553,
+  "subdir": "win-64",
+  "url": "https://repo.continuum.io/pkgs/free/win-64/heapdict-1.0.0-py35_1.tar.bz2",
+  "version": "1.0.0"
+}

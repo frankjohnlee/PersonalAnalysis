@@ -1,0 +1,42 @@
+{
+  "arch": "x86_64",
+  "build": "py35_1",
+  "build_number": 1,
+  "channel": "https://repo.continuum.io/pkgs/free/win-64",
+  "date": "2016-05-31",
+  "depends": [
+    "python 3.5*"
+  ],
+  "files": [
+    "Lib/site-packages/fastcache-1.0.2-py3.5.egg-info",
+    "Lib/site-packages/fastcache/__init__.py",
+    "Lib/site-packages/fastcache/__pycache__/__init__.cpython-35.pyc",
+    "Lib/site-packages/fastcache/__pycache__/benchmark.cpython-35.pyc",
+    "Lib/site-packages/fastcache/_lrucache.pyd",
+    "Lib/site-packages/fastcache/benchmark.py",
+    "Lib/site-packages/fastcache/tests/__init__.py",
+    "Lib/site-packages/fastcache/tests/__pycache__/__init__.cpython-35.pyc",
+    "Lib/site-packages/fastcache/tests/__pycache__/test_clrucache.cpython-35.pyc",
+    "Lib/site-packages/fastcache/tests/__pycache__/test_functools.cpython-35.pyc",
+    "Lib/site-packages/fastcache/tests/__pycache__/test_thread.cpython-35.pyc",
+    "Lib/site-packages/fastcache/tests/test_clrucache.py",
+    "Lib/site-packages/fastcache/tests/test_functools.py",
+    "Lib/site-packages/fastcache/tests/test_thread.py"
+  ],
+  "fn": "fastcache-1.0.2-py35_1.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\mattc\\Anaconda3\\pkgs\\fastcache-1.0.2-py35_1",
+    "type": "copy"
+  },
+  "md5": "5834081d2bc79b5f9f0b3f405212b6ff",
+  "name": "fastcache",
+  "platform": "win",
+  "priority": 0,
+  "requires": [],
+  "schannel": "defaults",
+  "size": 27207,
+  "subdir": "win-64",
+  "url": "https://repo.continuum.io/pkgs/free/win-64/fastcache-1.0.2-py35_1.tar.bz2",
+  "version": "1.0.2"
+}

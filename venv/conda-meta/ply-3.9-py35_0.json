@@ -1,0 +1,41 @@
+{
+  "arch": "x86_64",
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/free/win-64",
+  "date": "2016-08-31",
+  "depends": [
+    "python 3.5*"
+  ],
+  "files": [
+    "Lib/site-packages/ply-3.9-py3.5.egg-info",
+    "Lib/site-packages/ply/__init__.py",
+    "Lib/site-packages/ply/__pycache__/__init__.cpython-35.pyc",
+    "Lib/site-packages/ply/__pycache__/cpp.cpython-35.pyc",
+    "Lib/site-packages/ply/__pycache__/ctokens.cpython-35.pyc",
+    "Lib/site-packages/ply/__pycache__/lex.cpython-35.pyc",
+    "Lib/site-packages/ply/__pycache__/yacc.cpython-35.pyc",
+    "Lib/site-packages/ply/__pycache__/ygen.cpython-35.pyc",
+    "Lib/site-packages/ply/cpp.py",
+    "Lib/site-packages/ply/ctokens.py",
+    "Lib/site-packages/ply/lex.py",
+    "Lib/site-packages/ply/yacc.py",
+    "Lib/site-packages/ply/ygen.py"
+  ],
+  "fn": "ply-3.9-py35_0.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "C:\\Users\\mattc\\Anaconda3\\pkgs\\ply-3.9-py35_0",
+    "type": "copy"
+  },
+  "md5": "3669c5d812768486b6586c0b5beed520",
+  "name": "ply",
+  "platform": "win",
+  "priority": 0,
+  "requires": [],
+  "schannel": "defaults",
+  "size": 74102,
+  "subdir": "win-64",
+  "url": "https://repo.continuum.io/pkgs/free/win-64/ply-3.9-py35_0.tar.bz2",
+  "version": "3.9"
+}

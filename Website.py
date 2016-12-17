@@ -1,7 +1,6 @@
-from flask import render_template, request, url_for
+from flask import render_template, request, url_for, Flask, ext
 from GetInfoFromFitBit import authenticate_fitbit
 from api_utils import API_DICT, OAUTH_SESSIONS
-from flask import Flask, ext
 from flask_sqlalchemy import SQLAlchemy
 
 SERVER_HOST = "localhost"

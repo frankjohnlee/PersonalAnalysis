@@ -1,0 +1,7 @@
+notebook>=4.2.0
+
+[test]
+nose
+
+[test:python_version=="2.7"]
+mock

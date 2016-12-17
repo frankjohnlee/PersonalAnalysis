@@ -1,0 +1,50 @@
+{
+  "arch": "x86_64",
+  "build": "vc14_2",
+  "build_number": 2,
+  "channel": "https://repo.continuum.io/pkgs/free/win-64",
+  "date": "2016-06-02",
+  "depends": [
+    "jpeg 8d",
+    "zlib 1.2.*"
+  ],
+  "features": "vc14",
+  "files": [
+    "Library/bin/libtiff.dll",
+    "Library/include/t4.h",
+    "Library/include/tif_config.h",
+    "Library/include/tif_config.vc.h",
+    "Library/include/tif_config.wince.h",
+    "Library/include/tif_dir.h",
+    "Library/include/tif_fax3.h",
+    "Library/include/tif_predict.h",
+    "Library/include/tiff.h",
+    "Library/include/tiffconf.h",
+    "Library/include/tiffconf.vc.h",
+    "Library/include/tiffconf.wince.h",
+    "Library/include/tiffio.h",
+    "Library/include/tiffiop.h",
+    "Library/include/tiffvers.h",
+    "Library/include/uvcode.h",
+    "Library/lib/libtiff.lib",
+    "Library/lib/libtiff_i.lib",
+    "Library/lib/tiff.lib"
+  ],
+  "fn": "libtiff-4.0.6-vc14_2.tar.bz2",
+  "license": "BSD-like",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\mattc\\Anaconda3\\pkgs\\libtiff-4.0.6-vc14_2",
+    "type": "copy"
+  },
+  "md5": "d394bed368c0cd11b653dc10adee43ec",
+  "name": "libtiff",
+  "platform": "win",
+  "priority": 0,
+  "requires": [],
+  "schannel": "defaults",
+  "size": 473487,
+  "subdir": "win-64",
+  "url": "https://repo.continuum.io/pkgs/free/win-64/libtiff-4.0.6-vc14_2.tar.bz2",
+  "version": "4.0.6"
+}

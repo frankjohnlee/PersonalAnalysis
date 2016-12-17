@@ -1,0 +1,46 @@
+{
+  "arch": "x86_64",
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/free/win-64",
+  "date": "2016-04-05",
+  "depends": [
+    "python 3.5*"
+  ],
+  "files": [
+    "Lib/site-packages/idna-2.1-py3.5.egg-info/PKG-INFO",
+    "Lib/site-packages/idna-2.1-py3.5.egg-info/SOURCES.txt",
+    "Lib/site-packages/idna-2.1-py3.5.egg-info/dependency_links.txt",
+    "Lib/site-packages/idna-2.1-py3.5.egg-info/top_level.txt",
+    "Lib/site-packages/idna/__init__.py",
+    "Lib/site-packages/idna/__pycache__/__init__.cpython-35.pyc",
+    "Lib/site-packages/idna/__pycache__/codec.cpython-35.pyc",
+    "Lib/site-packages/idna/__pycache__/compat.cpython-35.pyc",
+    "Lib/site-packages/idna/__pycache__/core.cpython-35.pyc",
+    "Lib/site-packages/idna/__pycache__/idnadata.cpython-35.pyc",
+    "Lib/site-packages/idna/__pycache__/intranges.cpython-35.pyc",
+    "Lib/site-packages/idna/__pycache__/uts46data.cpython-35.pyc",
+    "Lib/site-packages/idna/codec.py",
+    "Lib/site-packages/idna/compat.py",
+    "Lib/site-packages/idna/core.py",
+    "Lib/site-packages/idna/idnadata.py",
+    "Lib/site-packages/idna/intranges.py",
+    "Lib/site-packages/idna/uts46data.py"
+  ],
+  "fn": "idna-2.1-py35_0.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "C:\\Users\\mattc\\Anaconda3\\pkgs\\idna-2.1-py35_0",
+    "type": "copy"
+  },
+  "md5": "02da4ec186b8ddbf592b77a1be831c23",
+  "name": "idna",
+  "platform": "win",
+  "priority": 0,
+  "requires": [],
+  "schannel": "defaults",
+  "size": 117849,
+  "subdir": "win-64",
+  "url": "https://repo.continuum.io/pkgs/free/win-64/idna-2.1-py35_0.tar.bz2",
+  "version": "2.1"
+}

@@ -1,0 +1,36 @@
+{
+  "arch": "x86_64",
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/free/win-64",
+  "date": "2016-09-16",
+  "depends": [
+    "path.py",
+    "python 3.5*"
+  ],
+  "files": [
+    "Lib/site-packages/__pycache__/pickleshare.cpython-35.pyc",
+    "Lib/site-packages/pickleshare-0.7.4-py3.5.egg-info/PKG-INFO",
+    "Lib/site-packages/pickleshare-0.7.4-py3.5.egg-info/SOURCES.txt",
+    "Lib/site-packages/pickleshare-0.7.4-py3.5.egg-info/dependency_links.txt",
+    "Lib/site-packages/pickleshare-0.7.4-py3.5.egg-info/requires.txt",
+    "Lib/site-packages/pickleshare-0.7.4-py3.5.egg-info/top_level.txt",
+    "Lib/site-packages/pickleshare.py"
+  ],
+  "fn": "pickleshare-0.7.4-py35_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\mattc\\Anaconda3\\pkgs\\pickleshare-0.7.4-py35_0",
+    "type": "copy"
+  },
+  "md5": "01a558e9b323ae62890213fa2f8053b9",
+  "name": "pickleshare",
+  "platform": "win",
+  "priority": 0,
+  "requires": [],
+  "schannel": "defaults",
+  "size": 8806,
+  "subdir": "win-64",
+  "url": "https://repo.continuum.io/pkgs/free/win-64/pickleshare-0.7.4-py35_0.tar.bz2",
+  "version": "0.7.4"
+}

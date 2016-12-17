@@ -1,0 +1,32 @@
+
+[array]
+numpy
+toolz >= 0.7.2
+
+[bag]
+cloudpickle >= 0.2.1
+toolz >= 0.7.2
+partd >= 0.3.5
+
+[complete]
+cloudpickle >= 0.2.1
+distributed >= 1.10
+numpy
+pandas >= 0.18.0
+partd >= 0.3.5
+s3fs
+toolz >= 0.7.2
+
+[dataframe]
+numpy
+pandas >= 0.18.0
+toolz >= 0.7.2
+partd >= 0.3.5
+cloudpickle >= 0.2.1
+
+[distributed]
+distributed >= 1.10
+s3fs
+
+[imperative]
+toolz >= 0.7.2
