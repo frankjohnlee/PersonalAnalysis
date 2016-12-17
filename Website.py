@@ -5,10 +5,9 @@ from flask_sqlalchemy import SQLAlchemy
 
 SERVER_HOST = "localhost"
 SERVER_PORT = 443
-CONNECTION_STRING = 'postgresql://postgres:postgres@localhost:5432/Health_Information'
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = CONNECTION_STRING
+app.config.from_pyfile('config_file.cfg')
 db = SQLAlchemy(app)
 
 @app.route('/')
