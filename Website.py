@@ -10,6 +10,7 @@ app = Flask(__name__)
 app.config.from_pyfile('config_file.cfg')
 db = SQLAlchemy(app)
 
+
 @app.route('/')
 def main_page():
     return render_template('index.html')
