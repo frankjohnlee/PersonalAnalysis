@@ -1,7 +1,0 @@
-
-def main():
-    from nbformat.sign import TrustNotebookApp
-    TrustNotebookApp.launch_instance()
-
-if __name__ == '__main__':
-    main()

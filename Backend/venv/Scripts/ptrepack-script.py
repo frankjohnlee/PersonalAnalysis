@@ -1,5 +1,0 @@
-if __name__ == '__main__':
-    import sys
-    import tables.scripts.ptrepack
-
-    sys.exit(tables.scripts.ptrepack.main())

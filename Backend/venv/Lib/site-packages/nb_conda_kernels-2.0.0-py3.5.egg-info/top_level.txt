@@ -1,1 +1,0 @@
-nb_conda_kernels

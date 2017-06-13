@@ -1,8 +1,0 @@
-{
-  "load_extensions": {
-    "nb_anacondacloud/main": true,
-    "jupyter-js-widgets/extension": true,
-    "nbpresent/js/nbpresent.min": true,
-    "nb_conda/main": true
-  }
-}
